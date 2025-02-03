@@ -1,0 +1,1 @@
+This repository demonstrates a common yet easily overlooked error in VBScript: the implicit return of an empty string when a function doesn't explicitly set a return value.  The `bug.vbs` file showcases the problematic code. The solution (`bugSolution.vbs`) illustrates how to avoid this by explicitly returning a value, even if it's a null or a default value.
